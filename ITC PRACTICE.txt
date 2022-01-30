@@ -1,0 +1,135 @@
+Q1.b(Python)
+
+#input p r n
+
+#i=(p*r*n)/100
+
+#dispaly i
+
+p = int(input("enter first number: "))
+
+r = int(input("enter second number: "))
+
+n = int(input("enter third number: "))
+ 
+i = (p * r * n)/100
+ 
+
+print("I= ", i)
+
+X-----X
+
+Q4.a
+
+begin
+input radius
+areaof circle = pi*radius^2
+circumof cirlce = 2*pi*r
+display areaof circle
+display circumof circle
+end
+
+X-----X
+
+Q4.b
+
+#radius input
+
+radius = int(input("enter value for radius: "))
+
+#formula for area
+
+aoc = 3.142*radius*radius
+
+#formula for circumference
+
+coc = 2*3.142*radius
+
+#print to display
+
+print("Area= ", aoc)
+
+print("Circumference= ", coc)
+
+X-----X
+
+Q3
+*****HTML*****
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="ITCprac.css">
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<div id="image">
+    <img style="padding-left:60px" src="res.jpg" width="1200px">
+</div>
+    <div id="header">WELCOME</div>
+    <div id="header1">HOT N ROLL</div>
+    <div id="nav">
+        <ul>
+        <li><a href="Selection Sort.PNG">Home</a></li>
+        <li><a href="FOP IMP.jpg">Menu</a></li>
+        <li><a href="index.jpg">Contact-Us</a></li>
+        <li><a href="index2.jpg">About Us</a></li>
+        <li><a href="Insertion Sort.PNG">Guest-Book</a></li>
+        </ul>
+    </div>
+</body>
+</html> 
+
+*****CSS*****
+
+#image
+{
+    opacity: 0.5;
+    width: ;
+}
+
+#header
+{
+    font-size: 60px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-140%,-250%);
+}
+#header1
+{
+    font-size: 30px;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-200%,-250%);
+} 
+#nav a
+{
+    text-decoration: none;
+    color: black;
+}
+#nav
+  {
+      position: absolute;
+      top: 65%;
+      left: 50%;
+      transform: translate(-105%,-310%);
+  }
+
+#nav ul li
+  {
+      float: left;
+      margin-left: 50px;
+      list-style: none;
+  }
+#nav ul li a:hover
+{
+	color:#fea500;
+	text-decoration:underline;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+  
